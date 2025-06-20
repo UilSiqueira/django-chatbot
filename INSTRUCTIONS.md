@@ -8,7 +8,7 @@ Siga os passos abaixo para rodar o projeto localmente usando Docker.
 
 ```bash
 git clone git@github.com:UilSiqueira/django-chatbot.git
-cd seu-repo
+cd django-chatbot
 ```
 
 
