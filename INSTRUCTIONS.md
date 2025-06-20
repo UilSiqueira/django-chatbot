@@ -9,20 +9,24 @@ Siga os passos abaixo para rodar o projeto localmente usando Docker.
 ```bash
 git clone https://github.com/seu-usuario/seu-repo.git
 cd seu-repo
+```
 
 
-2. Suba os containers
+## 2. Suba os containers
 
+```bash
 docker-compose up -d --build
+```
 
 
-3. Aplique as migrações
+## 3. Aplique as migrações
 
+```bash
 docker-compose exec web python manage.py migrate
+```
 
-
-4. Testar o endpoint
-
+## 4. Testar o endpoint
+```bash
 curl -X POST http://localhost:8000/webhook/ \
   -H 'Content-Type: application/json' \
   -d '{
@@ -32,6 +36,7 @@ curl -X POST http://localhost:8000/webhook/ \
       "id": "6a41b347-8d80-4ce9-84ba-7af66f369f6a"
     }
   }'
+```
 
 ✅ Pronto!
 
