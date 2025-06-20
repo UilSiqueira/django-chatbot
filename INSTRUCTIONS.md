@@ -7,7 +7,7 @@ Siga os passos abaixo para rodar o projeto localmente usando Docker.
 ## 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repo.git
+git clone git@github.com:UilSiqueira/django-chatbot.git
 cd seu-repo
 ```
 
